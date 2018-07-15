@@ -2,8 +2,8 @@
   "title": "CMT Explorer",
   "server": "http://159.65.66.127:4100/api",
   "alias": "Main",
-  "activeDelegates": 21,
-  "rewardOffset": 1,
+  "activeDelegates": 51,
+  "rewardOffset": 75600,
   "currencies": [],
   "knownWallets": {},
   "defaults": {
