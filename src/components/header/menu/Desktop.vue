@@ -2,7 +2,7 @@
   <div class="absolute pin px-4 md:px-8 hidden sm:flex bg-theme-nav-background xl:rounded-r-md">
     <button
       @click="closeMenu"
-      class='px-4 py-3 md:py-6 flex-none flex items-center border-b-2 margin-t-2 mr-3 border-transparent hover:border-red text-theme-text-secondary'>
+      class='px-4 py-3 md:py-6 flex-none flex items-center border-b-2 margin-t-2 mr-3 border-transparent hover:border-blue text-theme-text-secondary'>
       <!-- Inline this SVG so we can change color dynamically -->
       <svg
         class="flex-none fill-current"

@@ -116,14 +116,14 @@ const methods = {
     value *= store.getters['currency/rate']
 
     if (normalise) {
-      value /= Math.pow(10, 8)
+      value /= Math.pow(10, 2)
     }
 
     return [store.getters['network/token'], 'BTC', 'ETH', 'LTC'].some(
       c => currencyName.indexOf(c) > -1
     )
       ? value.toLocaleString(undefined, {
-        maximumFractionDigits: 8,
+        maximumFractionDigits: 2,
       })
       : value.toLocaleString(undefined, {
         maximumFractionDigits: 2,
@@ -132,7 +132,7 @@ const methods = {
 
   readableCrypto(value, appendCurrency = true, decimals = 8) {
     if (typeof value !== 'undefined') {
-      value = (value /= Math.pow(10, 8)).toLocaleString(undefined, {
+      value = (value /= Math.pow(10, 2)).toLocaleString(undefined, {
         maximumFractionDigits: decimals,
       })
 
