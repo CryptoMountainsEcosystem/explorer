@@ -130,7 +130,7 @@ const methods = {
       })
   },
 
-  readableCrypto(value, appendCurrency = true, decimals = 8) {
+  readableCrypto(value, appendCurrency = true, decimals = 2) {
     if (typeof value !== 'undefined') {
       value = (value /= Math.pow(10, 2)).toLocaleString(undefined, {
         maximumFractionDigits: decimals,
