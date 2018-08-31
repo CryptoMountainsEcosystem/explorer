@@ -27,7 +27,7 @@ export default {
     },
 
     getTotal() {
-      this.forged = (this.height - this.rewardOffset) * 5 
+      this.forged = (this.height - this.rewardOffset) * 5 - 0.05
     },
   },
 }

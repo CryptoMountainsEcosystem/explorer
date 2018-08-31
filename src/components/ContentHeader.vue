@@ -6,7 +6,6 @@
         <div class="pr-6">{{ $t("Height") }}: {{ height.toLocaleString() }}</div>
         <div class="pr-6">{{ $t("Network") }}: {{ $t(alias) }}</div>
         <div class="pr-6">{{ $t("Supply") }}: <span class="whitespace-no-wrap">{{ readableCrypto(supply) }}</span></div>
-        <div>{{ $t("Market Cap") }}: <currency :amount="+supply"></currency></div>
       </div>
     </div>
     <div class="sm:hidden flex items-center justify-between text-theme-text-tertiary text-2xs px-5 sm:px-8 xl:px-6 py-3 bg-stat-background">
@@ -15,7 +14,7 @@
         <span class="block md:inline-block">{{ height.toLocaleString() }}</span>
       </div>
       <div class="mr-2">
-        <span>ARK/{{name}}:</span>
+        <span>CMT/EUR:</span>
         <span class="block md:inline-block">{{ rawCurrency(rate, name) }}</span>
       </div>
       <div>
