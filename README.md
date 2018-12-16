@@ -1,21 +1,18 @@
-<p align="center">
-    <img src="/ARKExplorer.png" />
-</p>
 
-[![Build Status](https://img.shields.io/travis/ArkEcosystem/explorer/master.svg?style=flat)](https://travis-ci.org/ArkEcosystem/explorer)
+[![Build Status](https://img.shields.io/travis/CMTEcosystem/explorer/master.svg?style=flat)](https://travis-ci.org/CMTEcosystem/explorer)
 
-# ARK Explorer 3.0
+# CMT Explorer 3.0
 
 > Designed and developed from the ground-up, using lean & fast developmental frameworks (Tailwind CSS & Vue.JS).
 
-You can access it at [https://explorer.ark.io/](https://explorer.ark.io/).
+You can access it at [https://explorer.CMT.io/](https://explorer.CMT.io/).
 
 ## Build Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ArkEcosystem/ark-explorer
+git clone https://github.com/CMTEcosystem/CMT-explorer
 ```
 
 ### 2. Install Dependencies
@@ -52,7 +49,7 @@ If you are going to host your explorer instance on GitHub Pages you will need to
 yarn build --base https://username.github.io/repository/
 ```
 
-A running instance of the explorer on GitHub Pages can be found at https://arkecosystem.github.io/.
+A running instance of the explorer on GitHub Pages can be found at https://CMTecosystem.github.io/.
 
 > This step is not required if you are hosting the explorer on your "root" repository which is usually your username https://username.github.io/.
 
@@ -116,14 +113,14 @@ $ yarn test
 
 ## 7. Security
 
-If you discover a security vulnerability within this package, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to security@CMT.io. All security vulnerabilities will be promptly addressed.
 
 ## 8. Contributing
 
 * If you find any bugs, submit an [issue](../../issues) or open a [pull-request](../../pulls), helping us catch and fix them.
-* Engage with other users and developers on [ARK Slack](https://ark.io/slack/).
-* Join our [gitter](https://gitter.im/ark-developers/Lobby).
-* [Contribute bounties](https://github.com/ArkEcosystem/ARK-Bounty-Program).
+* Engage with other users and developers on [CMT Slack](https://CMT.io/slack/).
+* Join our [gitter](https://gitter.im/CMT-developers/Lobby).
+* [Contribute bounties](https://github.com/CMTEcosystem/CMT-Bounty-Program).
 
 ## 9. Credits
 
@@ -134,4 +131,4 @@ If you discover a security vulnerability within this package, please send an e-m
 
 ## 10. License
 
-[MIT](LICENSE) © [ArkEcosystem](https://ark.io)
+[MIT](LICENSE) © [CMTEcosystem](https://CMT.io)
