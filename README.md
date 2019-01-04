@@ -1,11 +1,6 @@
-
-[![Build Status](https://img.shields.io/travis/CMTEcosystem/explorer/master.svg?style=flat)](https://travis-ci.org/CMTEcosystem/explorer)
-
 # CMT Explorer 3.0
 
 > Designed and developed from the ground-up, using lean & fast developmental frameworks (Tailwind CSS & Vue.JS).
-
-You can access it at [https://explorer.CMT.io/](https://explorer.CMT.io/).
 
 ## Build Setup
 
@@ -115,20 +110,10 @@ $ yarn test
 
 If you discover a security vulnerability within this package, please send an e-mail to security@CMT.io. All security vulnerabilities will be promptly addressed.
 
-## 8. Contributing
+## 8. Credits
 
-* If you find any bugs, submit an [issue](../../issues) or open a [pull-request](../../pulls), helping us catch and fix them.
-* Engage with other users and developers on [CMT Slack](https://CMT.io/slack/).
-* Join our [gitter](https://gitter.im/CMT-developers/Lobby).
-* [Contribute bounties](https://github.com/CMTEcosystem/CMT-Bounty-Program).
+- Lorenzo Caruso <lorenzo.caruso@outlook.com>
 
-## 9. Credits
+## 9. License
 
-- [Brian Faust](https://github.com/faustbrian)
-- [Lúcio Rubens](https://github.com/luciorubeens)
-- [Alex Barnsley](https://github.com/alexbarnsley)
-- [All Contributors](../../contributors)
-
-## 10. License
-
-[MIT](LICENSE) © [CMTEcosystem](https://CMT.io)
+[MIT](LICENSE) © [CMTEcosystem]
